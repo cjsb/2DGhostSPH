@@ -1,37 +1,7 @@
-﻿Build started 11/9/2016 3:27:39 PM.
-     1>Project "C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\SPH_Ghost\SPH_Ghost.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DensityCalculator.cpp KernelCalculator.cpp SingleStep.cpp main.cpp
-         DensityCalculator.cpp
-     1>c:\users\caio\documents\caio\navegante\ghostsphgit\sph\sph_ghost\sph_ghost_solution\sph_ghost\Functions.h(5): warning C4273: 'round' : inconsistent dll linkage
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
-     1>DensityCalculator.cpp(11): warning C4018: '<' : signed/unsigned mismatch
-     1>DensityCalculator.cpp(21): warning C4018: '<' : signed/unsigned mismatch
-     1>DensityCalculator.cpp(23): warning C4018: '<' : signed/unsigned mismatch
-     1>DensityCalculator.cpp(41): warning C4018: '<' : signed/unsigned mismatch
-     1>DensityCalculator.cpp(44): warning C4018: '<' : signed/unsigned mismatch
-     1>DensityCalculator.cpp(75): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
-     1>DensityCalculator.cpp(78): warning C4018: '<' : signed/unsigned mismatch
-     1>DensityCalculator.cpp(95): warning C4018: '<' : signed/unsigned mismatch
-     1>DensityCalculator.cpp(98): warning C4018: '<' : signed/unsigned mismatch
-     1>DensityCalculator.cpp(145): warning C4018: '<' : signed/unsigned mismatch
-         KernelCalculator.cpp
-     1>c:\users\caio\documents\caio\navegante\ghostsphgit\sph\sph_ghost\sph_ghost_solution\sph_ghost\Functions.h(5): warning C4273: 'round' : inconsistent dll linkage
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
-     1>KernelCalculator.cpp(35): warning C4018: '<' : signed/unsigned mismatch
-     1>KernelCalculator.cpp(39): warning C4018: '<' : signed/unsigned mismatch
-     1>KernelCalculator.cpp(41): warning C4018: '<' : signed/unsigned mismatch
-         SingleStep.cpp
-     1>c:\users\caio\documents\caio\navegante\ghostsphgit\sph\sph_ghost\sph_ghost_solution\sph_ghost\Functions.h(5): warning C4273: 'round' : inconsistent dll linkage
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
-     1>SingleStep.cpp(11): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-         main.cpp
-     1>c:\users\caio\documents\caio\navegante\ghostsphgit\sph\sph_ghost\sph_ghost_solution\sph_ghost\Functions.h(5): warning C4273: 'round' : inconsistent dll linkage
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
-     1>C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\include\Resource\ConfigurationPolicy.h(48): warning C4018: '<' : signed/unsigned mismatch
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\Release\SPH_Ghost.exe" /NOLOGO /LIBPATH:C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\lib Resource.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\Release\SPH_Ghost.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\Release\SPH_Ghost.lib" /MACHINE:X86 /SAFESEH Release\ArtificialViscosityCalculator.obj
+﻿Build started 11/9/2016 3:45:54 PM.
+     1>Project "C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\SPH_Ghost\SPH_Ghost.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Release\SPH_Ghost.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Release\SPH_Ghost.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Release\SPH_Ghost.lib" /MACHINE:X86 /SAFESEH Release\ArtificialViscosityCalculator.obj
          Release\CreateGhostParticles2D.obj
          Release\createParticles2D.obj
          Release\DensityCalculator.obj
@@ -51,12 +21,12 @@
          Release\SingleStep.obj
          Release\TimeIntegrationCalculator.obj
          Release\VelocityCalculator.obj
-            Creating library C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\Release\SPH_Ghost.lib and object C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\Release\SPH_Ghost.exp
+            Creating library C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Release\SPH_Ghost.lib and object C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Release\SPH_Ghost.exp
          Generating code
          Finished generating code
-         SPH_Ghost.vcxproj -> C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\Release\SPH_Ghost.exe
-     1>Done Building Project "C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\SPH_Ghost\SPH_Ghost.vcxproj" (Build target(s)).
+         SPH_Ghost.vcxproj -> C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Release\SPH_Ghost.exe
+     1>Done Building Project "C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\SPH_Ghost\SPH_Ghost.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.36
+Time Elapsed 00:00:01.59

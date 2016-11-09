@@ -1,12 +1,138 @@
-﻿Build started 11/9/2016 3:32:39 PM.
-     1>Project "C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\SPH_Ghost\SPH_Ghost.vcxproj" on node 2 (Build target(s)).
+﻿Build started 11/9/2016 3:46:05 PM.
+     1>Project "C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\SPH_Ghost\SPH_Ghost.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
-     1>c:\users\caio\documents\caio\navegante\ghostsphgit\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ArtificialViscosityCalculator.cpp CreateGhostParticles2D.cpp createParticles2D.cpp DensityCalculator.cpp Functions.cpp KernelCalculator.cpp KernelGradCalculator.cpp LennardJonesCalculator.cpp main.cpp NeighborCalcutator.cpp PositionCalculator.cpp PovRayScene.cpp TimerWin32.cpp VelocityXSPHCalculator.cpp PressureCalculator.cpp PressureForceCalculator.cpp PrintOut.cpp SingleStep.cpp TimeIntegrationCalculator.cpp VelocityCalculator.cpp
+         VelocityCalculator.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\velocitycalculator.cpp(5): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\velocitycalculator.cpp(12): warning C4018: '<' : signed/unsigned mismatch
+         TimeIntegrationCalculator.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\timeintegrationcalculator.cpp(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\timeintegrationcalculator.cpp(17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\timeintegrationcalculator.cpp(35): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\timeintegrationcalculator.cpp(38): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\timeintegrationcalculator.cpp(43): warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+         SingleStep.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\singlestep.cpp(11): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         PrintOut.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\printout.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\printout.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\printout.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\printout.cpp(53): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\printout.cpp(62): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\printout.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\printout.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\printout.cpp(124): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\printout.cpp(133): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\printout.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\printout.cpp(158): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\printout.cpp(167): warning C4018: '<' : signed/unsigned mismatch
+         PressureForceCalculator.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\pressureforcecalculator.cpp(6): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\pressureforcecalculator.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\pressureforcecalculator.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+         PressureCalculator.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\pressurecalculator.cpp(6): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\pressurecalculator.cpp(25): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\pressurecalculator.cpp(38): warning C4018: '<' : signed/unsigned mismatch
+         VelocityXSPHCalculator.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\velocityxsphcalculator.cpp(7): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\velocityxsphcalculator.cpp(12): warning C4018: '<' : signed/unsigned mismatch
+         TimerWin32.cpp
+         PovRayScene.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\povrayscene.cpp(8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\povrayscene.cpp(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\povrayscene.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+         PositionCalculator.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\positioncalculator.cpp(5): warning C4018: '<' : signed/unsigned mismatch
+         NeighborCalcutator.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\neighborcalcutator.cpp(5): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\neighborcalcutator.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\neighborcalcutator.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+         LennardJonesCalculator.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\lennardjonescalculator.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\lennardjonescalculator.cpp(15): warning C4018: '<' : signed/unsigned mismatch
+         KernelGradCalculator.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\kernelgradcalculator.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\kernelgradcalculator.cpp(45): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\kernelgradcalculator.cpp(47): warning C4018: '<' : signed/unsigned mismatch
+         KernelCalculator.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\kernelcalculator.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\kernelcalculator.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\kernelcalculator.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+         Functions.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.cpp(17): warning C4018: '<' : signed/unsigned mismatch
+         DensityCalculator.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\densitycalculator.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\densitycalculator.cpp(21): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\densitycalculator.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\densitycalculator.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\densitycalculator.cpp(44): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\densitycalculator.cpp(75): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\densitycalculator.cpp(78): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\densitycalculator.cpp(95): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\densitycalculator.cpp(98): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\densitycalculator.cpp(145): warning C4018: '<' : signed/unsigned mismatch
+         createParticles2D.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\createparticles2d.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\createparticles2d.cpp(76): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\createparticles2d.cpp(451): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\createparticles2d.cpp(497): warning C4018: '<' : signed/unsigned mismatch
+         CreateGhostParticles2D.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\createghostparticles2d.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\createghostparticles2d.cpp(21): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\createghostparticles2d.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+         ArtificialViscosityCalculator.cpp
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\functions.h(5): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see previous definition of 'round'
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\artificialviscositycalculator.cpp(7): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\caio\desktop\test\2dghostsph\sph\sph_ghost\sph_ghost_solution\sph_ghost\artificialviscositycalculator.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\lib_D Resource_D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.lib" /MACHINE:X86 Debug\ArtificialViscosityCalculator.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.lib" /MACHINE:X86 Debug\ArtificialViscosityCalculator.obj
          Debug\CreateGhostParticles2D.obj
          Debug\createParticles2D.obj
          Debug\DensityCalculator.obj
@@ -26,10 +152,11 @@
          Debug\SingleStep.obj
          Debug\TimeIntegrationCalculator.obj
          Debug\VelocityCalculator.obj
-            Creating library C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.lib and object C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.exp
-         SPH_Ghost.vcxproj -> C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.exe
-     1>Done Building Project "C:\Users\Caio\Documents\Caio\Navegante\GhostSPHGit\SPH\SPH_Ghost\SPH_Ghost_Solution\SPH_Ghost\SPH_Ghost.vcxproj" (Build target(s)).
+         LINK : C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.exe not found or not built by the last incremental link; performing full link
+            Creating library C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.lib and object C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.exp
+         SPH_Ghost.vcxproj -> C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\Debug\SPH_Ghost.exe
+     1>Done Building Project "C:\Users\Caio\Desktop\Test\2DGhostSPH\SPH\SPH_Ghost\SPH_Ghost_Solution\SPH_Ghost\SPH_Ghost.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.61
+Time Elapsed 00:00:10.09
